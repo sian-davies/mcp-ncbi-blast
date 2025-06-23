@@ -4,12 +4,13 @@ MCP Server and Gradio web application that performs DNA sequence similarity sear
 
 This app functions as a **Model Context Protocol (MCP) Server** for integration with AI assistants. 
 
-    Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context to LLMs. MCP enables models to interact with the world. Learn more at modelcontextprotocol.io.
+    Model Context Protocol (MCP) is an open protocol that standardizes how 
+    applications provide context to LLMs. MCP enables models to interact 
+    with the world. Learn more at modelcontextprotocol.io
 
-Created for the HuggingFace **Gradio Agents & MCP Hackathon 2025** for the mcp-server-track. 
-    *Track 1: Extend the capabilities of your favorite LLM by building a Gradio app to accomplish any specific task.*
+Created for the **HuggingFace Gradio Agents & MCP Hackathon 2025**. Track 1 (mcp-server-track): Extend the capabilities of your favorite LLM by building a Gradio app to accomplish any specific task.
 
-Code/Demo on HuggingFaceSpaces: [Agents-MCP-Hackathon/ncbi-blast-mcp-server](https://huggingface.co/spaces/Agents-MCP-Hackathon/ncbi-blast-mcp-server)
+MCP/Gradio app on HuggingFaceSpaces: [Agents-MCP-Hackathon/ncbi-blast-mcp-server](https://huggingface.co/spaces/Agents-MCP-Hackathon/ncbi-blast-mcp-server)
 
 Demo video with Cursor Desktop: "https://youtu.be/yCpaTvcDeqM"
 
@@ -94,4 +95,4 @@ if "error" not in blast_data:
 
 ## Future Work
 - Enable multi-sequence inputs
-- Enable RNA and DNA search functionality
+- Enable protein and RNA search functionality
